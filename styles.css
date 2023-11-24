@@ -1,24 +1,23 @@
-/*  your css code here. If applicable */
-main{
-	background: #f5f5f5;
-	padding:10px;
-	height:300px
+.testimonial-container {
+  padding: 20px;
+  background-color: #f5f5f5;
 }
 
-.txt-ali1{
-	text-align:right;
-	margin-right:20px
+/* Style for individual testimonial box */
+.testimonial {
+  padding: 15px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  margin-bottom: 15px;
 }
 
-.Author1{
-	background-color:white;
-	width:87%;
-	margin-left:40px;
-	border: 1px solid grey;
-	margin-bottom:20px;
+/* Style for testimonial text */
+.testimonial-text {
+  /* Add any additional styling for the text here */
 }
 
-h1{
-	padding-top:20px;
-	margin-left:31px
+/* Style for author's name */
+.author {
+  text-align: right;
+  font-style: italic;
 }
